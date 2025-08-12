@@ -2,6 +2,7 @@ class Solution:
     def findPlatform(self, Arrival, Departure):
         #your code goes here
         n = len(Arrival)
+        #sort both the lists
         Arrival.sort()
         Departure.sort()
         ans = 1
